@@ -1,0 +1,27 @@
+{
+  "name": "@arbendium/eslint-config-typescript",
+  "version": "0.1.0",
+  "description": "ESLint config for TypeScript",
+  "repository": "github:arbendium/eslint-config-typescript",
+  "type": "module",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "lint": "eslint index.js eslint.config.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.11.0",
+    "@typescript-eslint/parser": "^6.11.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.51.0"
+  },
+  "devDependencies": {
+    "@arbendium/eslint-config-base": "^0.2.1"
+  }
+}
